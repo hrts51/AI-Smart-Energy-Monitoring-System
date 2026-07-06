@@ -1,0 +1,53 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.*
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Streamlit Cache
+.streamlit/
+
+# TensorBoard Logs
+logs/
+
+# ==========================
+# Large Dataset (Do NOT upload)
+# ==========================
+dataset/ukdale.h5
+
+# Temporary Files
+*.tmp
+*.temp
+# Large datasets
+dataset/ukdale.h5
+dataset/ukdale_clean.csv
+dataset/converted_dataset.csv
